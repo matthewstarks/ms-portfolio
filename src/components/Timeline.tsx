@@ -63,7 +63,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">
               Space Systems Design Club Telemetry Team Member
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h4 className="vertical-timeline-element-subtitle">Gainesville, FL</h4>
             <p>
               • Design an advanced CanSat device for a NASA competition, while
               learning new technologies such as Pi Pico, MicroPython and R •
@@ -80,7 +80,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">
               Business Founder
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h4 className="vertical-timeline-element-subtitle">Longmont, CO</h4>
             <p>
               • Analyzed over 1,000 products through advanced software
               applications to determine profitability, in selecting merchandise
