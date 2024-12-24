@@ -2,10 +2,8 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "main": "app/index.tsx",
-  "homepage": "https://ms-portfolio-vjmdynadk-matthewstarks-projects.vercel.app/",
+  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
@@ -25,14 +23,13 @@
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
-    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "react-scripts start",
     "dev": "react-scripts start",
-    "build": "craco build",
-    "test": "craco test",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -68,6 +65,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "rimraf": "^6.0.1",
     "sass": "^1.83.0",
-    "sass-loader": "^16.0.4"
+    "sass-loader": "^16.0.4",
+    "typescript": "^3.9.10"
   }
 }
