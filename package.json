@@ -2,6 +2,7 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "homepage": "https://ms-portfolio-vjmdynadk-matthewstarks-projects.vercel.app/",
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -67,6 +68,6 @@
     "rimraf": "^6.0.1",
     "sass": "^1.83.0",
     "sass-loader": "^16.0.4",
-    "typescript": "^3.9.10"
+    "typescript": "^5.7.2"
   }
 }
