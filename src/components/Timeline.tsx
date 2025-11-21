@@ -12,83 +12,92 @@ function Timeline() {
       <div className="items-container">
         <h1>Experience / Involvement</h1>
         <VerticalTimeline>
+          {/* Computational Reasoning Group */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="Aug 2024 - present"
+            date="Aug 2024 – Sep 2025"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Product Management Undergraduate Research Assistant
+              Undergraduate Research Assistant — Computational Reasoning Group, UF
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Gainesville, FL
             </h4>
             <p>
-              • Organize weekly team meetings through timely communication and
-              Notion skills • Create timelines for the development of an
-              autograder to be used by over 2000 students at the University of
-              Florida • Track, research, and present analytics on historic
-              autograder research for improvement of team productivity
+              • Directed product strategy for a redesigned scalable educational autograder serving 2,000+ students annually.<br />
+              • Evaluated and integrated LLM-based AI tools with faculty and engineers to guide feature prioritization and implementation.<br />
+              • Designed a long‑term roadmap and identified high‑priority features for platform rollout.
             </p>
           </VerticalTimelineElement>
+
+          {/* Dover Fueling Solutions */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Aug 2024 - present"
+            date="June 2025 – Aug 2025"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Product Space Fellowship Member
+              Product Management Intern — Dover Fueling Solutions
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Gainesville, FL
-            </h4>
+            <h4 className="vertical-timeline-element-subtitle">Austin, TX</h4>
             <p>
-              • Participate in an 8-week fellowship with 22 other fellows to
-              gain an in-depth understanding of product management, strategy,
-              lifecycle, marketing, and design • Design a capstone project to
-              gain hands on experience with tech startups to demonstrate
-              knowledge of product management
+              • Analyzed 20,000+ warranty return records using Excel + SQL, uncovering $1M+ in profit recovery and reducing test errors by 20%.<br />
+              • Automated KPI tracking in Excel, reducing reporting time by 5+ hours/week and error rates by 40%.<br />
+              • Conducted market analysis and designed a mobile app for small gas stations, increasing TAM by 10%.
             </p>
           </VerticalTimelineElement>
+
+          {/* Intersect Health */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Aug 2024 - present"
+            date="Jan 2025 – Apr 2025"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Space Systems Design Club Telemetry Team Member
+              Product Management Intern — Intersect Health
             </h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <p>
+              • Led a 5‑person cross‑functional team evaluating FHIR telehealth adoption and benchmarked 10+ competitors.<br />
+              • Built a data‑driven GTM strategy influencing 2025 roadmap priorities.<br />
+              • Authored PRDs and feature briefs; recommendations adopted for MVP scope, reducing decision cycle time by 20%.
+            </p>
+          </VerticalTimelineElement>
+
+          {/* Amattazon */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 2024 – Jul 2024"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Founder & CEO — Amattazon</h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <p>
+              • Analyzed 1,000+ product listings using historical data analytics to identify high‑margin opportunities and optimize inventory turnover.<br />
+              • Generated 5‑figure quarterly revenue while managing 30+ vendor partnerships and 100+ customers.<br />
+              • Implemented dynamic pricing strategies to boost margins and customer retention.
+            </p>
+          </VerticalTimelineElement>
+
+          {/* Product Space */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Aug 2024 – Present"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Director of Outreach — Product Space</h3>
             <h4 className="vertical-timeline-element-subtitle">Gainesville, FL</h4>
             <p>
-              • Design an advanced CanSat device for a NASA competition, while
-              learning new technologies such as Pi Pico, MicroPython and R •
-              Authored and presented Critical and Preliminary Design Review
-              presentations to a panel of four NASA appointed judges
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Mar - July 2024"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Business Founder
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Longmont, CO</h4>
-            <p>
-              • Analyzed over 1,000 products through advanced software
-              applications to determine profitability, in selecting merchandise
-              and establishing a supply chain • Managed 5 figures worth of
-              revenue and accounted for unexpected circumstances in shipping,
-              supply, demand and price • Established and maintained outstanding
-              customer service for over 100 customers and cultivated over 30
-              strong vendor relationships
+              • Directed outreach efforts, forming 6+ startup partnerships and placing 40+ fellows.<br />
+              • Expanded the project pipeline by 25% and increased the startup pool by 125%.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

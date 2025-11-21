@@ -57,9 +57,9 @@ function Project() {
                 <p>Took on the role of product manager in making design decisions, user stories, mind maps and flowcharts along with acting as a project manager within the team.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/matthewstarks/SnakeAI" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/matthewstarks/SnakeAI" target="_blank" rel="noreferrer"><h2>Snake AI Game</h2></a>
-                <p>Using pygame and pytorch, I created an agent controlled snake game that learns through a reinforcement algorithm and neural network to effectively learn snake in under 15 minutes.</p>
+                <a href="https://github.com/Nedas-Jaronis/SolSearch" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Nedas-Jaronis/SolSearch" target="_blank" rel="noreferrer"><h2>SolScope</h2></a>
+                <p>SolSearch integrates React, Python, ML, and multiple APIs to visualize solar potential and rank properties by energy efficiency opportunity.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/matthewstarks/MERN_InternshipsTracker" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
